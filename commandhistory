@@ -1,0 +1,43 @@
+ cd
+    2  cd
+    3  pwd
+    4  git clone https://github.com/tendulkarvarun/helloworld-java.git
+    5  yum install git
+    6  git clone https://github.com/tendulkarvarun/helloworld-java.git
+    7  clear
+    8  ll
+    9  cd helloworld-java/
+   10  ll
+   11  mvn package
+   12  ll
+   13  cd target/
+   14  ll
+   15  cd ..
+   16  pwd
+   17  ll
+   18  mvn install
+   19  ll
+   20  vi pom.xml
+   21  ll
+   22  vi pom.xml
+   23  cd /root/.m2/repository
+   24  ll
+   25  find . -name *settings.xml*
+   26  find / -name *settings.xml*
+   27  cd /etc/maven
+   28  ll
+   29  vim settings.xml
+   30  vi settings.xml
+   31  pwd
+   32  cd /opt
+   33  ll
+   34  cd
+   35  ll
+   36  cd helloworld-java/
+   37  ll
+   38  vi pom.xml
+   39  clear
+   40  mvn deploy
+   41  ifup ens33
+   42  ll
+   43  vi pom.xml
