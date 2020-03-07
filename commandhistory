@@ -41,3 +41,27 @@
    41  ifup ens33
    42  ll
    43  vi pom.xml
+48  cd /opt
+   49  winget https://downloads.apache.org/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.tar.gz
+   50  clear
+   51  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.tar.gz
+   52  ll
+   53  tar -xvzf apache-tomcat-9.0.31.tar.gz
+   54  ll
+   55  mv apache-tomcat-9.0.31 tomcat
+   56  ll
+   57  cd tomcat/
+   58  ll
+   59  cd bin
+   60  ll
+   61  ./startup.sh
+   62  ps -ef|grep tomcat
+   63  pwd
+   64  cd ..
+   65  pwd
+   66  ll
+   67  cd webapps/
+   68  ll
+   69  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+   70  ll
+   71  cat /root/.jenkins/secrets/initialAdminPassword
